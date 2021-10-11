@@ -1,0 +1,26 @@
+.contact-content {
+  width: 100%;
+  text-align: center;
+  .contact-content-intro {
+    h1 {
+      text-align: center;
+    }
+    &-email {
+      text-align: center;
+    }
+    &-email-text {
+      display: inline-block;
+    }
+    &-message-input {
+      height: 100px;
+    }
+  }
+  .submit-message {
+    width: 100px;
+    height: 32px;
+    margin-top: 10px;
+    border-radius: 25px;
+    background-color: darkcyan;
+    color: white;
+  }
+}

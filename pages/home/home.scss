@@ -1,0 +1,20 @@
+.home-content {
+  h2 {
+    text-align: center;
+  }
+  p {
+    flex-wrap: wrap;
+    align-items: center;
+    width: 400px;
+    // margin-left: 36rem;
+    margin: 0 auto;
+  }
+}
+
+// @media only screen and (max-width: 375px) {
+//   .home-content {
+//     p {
+//       text-align: center;
+//     }
+//   }
+// }

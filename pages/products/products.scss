@@ -1,0 +1,60 @@
+.product {
+  width: 100%;
+  &-header {
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+.products {
+  align-items: center;
+  text-align: center;
+  justify-content: space-evenly;
+
+  //background-color: blue;
+  &__flex {
+    //background-color: rosybrown;
+    width: 700px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    &__holder {
+      height: 350px;
+      width: 250px;
+      margin-bottom: 50px;
+      // background: rgb(34, 32, 32);
+      flex-direction: row;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      border: solid;
+      border-color: rgb(34, 32, 32);
+      border-radius: 3px;
+      background-image: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0.3),
+          rgba(0, 0, 0, 0.3)
+        ),
+        url(../images/Yes.png);
+
+      h2 {
+        color: #eef1ef;
+        background-color: #1c2321;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .products__flex {
+    width: 400px;
+    height: none;
+
+    &__holder {
+      margin-bottom: 50px;
+      margin-bottom: 50px;
+    }
+  }
+}
